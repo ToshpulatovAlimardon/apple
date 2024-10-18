@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+body {
+  background-color: #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chixol-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.chixol-item {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px rgb(163, 163, 163);
+}
+.chixol-item p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 42px;
+  margin: 30px 0;
+}
